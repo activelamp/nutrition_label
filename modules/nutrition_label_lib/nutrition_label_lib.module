@@ -54,7 +54,7 @@ function _nutrition_label_lib_get_nutrition_label_path() {
   $searchdir = [];
 
   // Search sites/<site>/libraries first.
-  $searchdir[] = \Drupal::getContainer()->get('site.path') . '/libraries';
+  $searchdir[] = \Drupal::getContainer()->getParameter('site.path') . '/libraries';
 
   // Then search root libraries folder.
   $searchdir[] = 'libraries';
