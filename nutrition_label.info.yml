@@ -2,7 +2,7 @@ name: Nutrition Label
 type: module
 description: Integrates the Nutrition Label jQuery Plugin with Drupal.
 package: User interface
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10
 configure: nutrition_label.admin
 dependencies:
   - nutrition_label_lib
