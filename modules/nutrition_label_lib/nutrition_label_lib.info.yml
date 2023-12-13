@@ -2,4 +2,4 @@ name: Nutrition Label Library
 type: module
 description: Add <a href="https://github.com/nutritionix/nutrition-label">nutrition-label</a> library definition.
 package: User interface
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10

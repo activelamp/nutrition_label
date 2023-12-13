@@ -2,7 +2,7 @@ name: Nutrition Label Field
 description: Field Plugins to integrate <a href="https://github.com/nutritionix/nutrition-label">NutritionLabel</a> with the Drupal field system.
 package: User interface
 configure: nutrition_label.admin
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10
 type: module
 dependencies:
   - nutrition_label
